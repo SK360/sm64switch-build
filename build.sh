@@ -13,3 +13,4 @@ git checkout switch
 cp /mnt/n64/baserom.us.z64 /home/sm64pc/baserom.us.z64
 echo "Building SM64 for Switch"
 make -j4 TARGET_SWITCH=1 BETTERCAMERA=$camera
+cp /home/sm64pc/build/us_nx/sm64*nro /mnt/n64
