@@ -17,3 +17,4 @@ RUN dkp-pacman --noconfirm -S switch-dev
 RUN dkp-pacman --noconfirm -S devkitpro-pkgbuild-helpers libnx switch-tools switch-mesa switch-libdrm_nouveau switch-sdl2 
 COPY build.sh /home/build.sh
 RUN ["chmod", "+x", "/home/build.sh"]
+ENTRYPOINT ["/home/build.sh"]
