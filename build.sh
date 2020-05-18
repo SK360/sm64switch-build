@@ -4,8 +4,8 @@ source /opt/devkitpro/switchvars.sh
 
 REGION=$(ls /mnt/n64/*.z64 |grep -oP '(?<=[.])\w+(?=[.])')
 [[ -z "$camera" ]] || export cam=BETTERCAMERA=$camera
-[[ -z "$drawdistance" ]] || export $draw=NODRAWINGDISTANCE=$drawdistance
-[[ -z "$extoptions" ]] || export $extopt=EXT_OPTIONS_MENU=$extoptions
+[[ -z "$drawdistance" ]] || export draw=NODRAWINGDISTANCE=$drawdistance
+[[ -z "$extoptions" ]] || export extopt=EXT_OPTIONS_MENU=$extoptions
 
 cd /home
 # Clone SM64PC Repo
