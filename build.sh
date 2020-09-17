@@ -18,6 +18,6 @@ git checkout switch
 
 cp /mnt/n64/baserom.$region.z64 /home/sm64pc/baserom.$region.z64
 echo "Building SM64 for Switch using options:"
-echo "make $cam $draw $extopt -j4"
-make $cam $draw $extopt -j4
+echo "make $cam $draw $extopt VERSION=$region -j4"
+make $cam $draw $extopt VERSION=$region -j4
 cp /home/sm64pc/build/"$region"_nx/sm64*nro /mnt/n64
