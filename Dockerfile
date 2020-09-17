@@ -4,6 +4,7 @@ RUN apt-get update && \
   ca-certificates \
   build-essential \
   wget \
+  libarchive13 \
   curl \
   git \
   gnupg \
