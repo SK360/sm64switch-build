@@ -23,6 +23,10 @@ To disable EXT_OPTIONS_MENU set this in your run command.  If you want to use EX
 ```
 -e "extoptions=0"
 ```
+To enable the 60FPS Patch add this to your run command.
+```
+-e "60fps=1"
+```
 
 When the build is finished it will copy the .nro file to the folder that contains your .z64 file
 
