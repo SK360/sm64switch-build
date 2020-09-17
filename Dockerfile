@@ -4,6 +4,7 @@ RUN apt-get update && \
   ca-certificates \
   build-essential \
   wget \
+  curl \
   git \
   gnupg \
   python3 \
